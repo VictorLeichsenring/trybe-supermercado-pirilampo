@@ -3,7 +3,7 @@ const stockProducts = require('./data.json');
 const searchProductByName = (searchName) => {
   // Desenvolva seu código dentro dessa função...
   let productFound = {};
-  if (searchName == null) {
+  if (searchName === null) {
     return null;
   } else {
     for (let i = 0; i < stockProducts.length; i += 1) {
